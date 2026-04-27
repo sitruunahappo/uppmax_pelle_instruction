@@ -15,12 +15,13 @@
 
     semester: [],
 
-    author: "Johan Sjon, Yifan Hu, Xiaotian Luo",
+    author: "",
     email: "",
     address: [],
 
     header: [],
     show-header-line: false,
+    show-declaration-of-independent-work: false,
 )
 
 
@@ -73,5 +74,4 @@ retired since then. Then, as the structure of the new cluster changes
 
 #pagebreak()
 #include "git.typ"
-
 
