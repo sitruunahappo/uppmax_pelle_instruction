@@ -2,10 +2,21 @@
 
 == Login to Pelle
 
-There are several ways to log in to _Pelle_.
+There are several ways to log in to _Pelle_. Similar to _Futurum_, you can use 
+`ssh` or _ThinLinc_ client. However, specially, you can use a 
+#link("https://pelle-gui.uppmax.uu.se/")[remote desktop via website] to log in 
+UPPMAX. 
+
+No matter which method you choose, you need to set up *two factor authentication*
+(*2FA*) to use UPPMAX.
 
 === Setting up TOTP 
-#lorem(100)
+
+The purpose of 2FA is to get a *Time-based One-Time Password*, or *TOTP* for 
+short. TOTP expires every 30 seconds, and it is not sent by email. You need an 
+application for generating such a code.
+
+#link("https://suprintegration.uppmax.uu.se/bootstrapotp/")[Request Uppmax Second Factor]
 
 === SSH key <ssh-keys>
 
@@ -15,7 +26,7 @@ keep your keys safe. Specifically for UPPMAX, you can skip entering password
 and TOTP by using your SSH key.
 
 #rect(fill: rgb("#d08770"), stroke: 1pt, width: 100%)[
-  *Warning*
+  #text(baseline: 4pt)[*Warning*]
   #rect(fill: rgb("#ebcb8b"), stroke: 1pt, width: 100%)[
     The key generation processes below should be processed *on the client*, which 
     in this case, is *your own computer*. Even the server should *NOT* have your 

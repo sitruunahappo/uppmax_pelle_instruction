@@ -54,7 +54,7 @@ Then you can click the link with the address `127.0.0.1` from Jupyter
 to open Notebook from your local browser.
 
 #rect(fill: rgb("#d8dee9"), stroke: 1pt, width: 100%)[
-  *Note* \
+  #text(baseline: 4pt)[*Note*]
   #rect(fill: rgb("#eceff4"), stroke: 1pt, width: 100%)[
     You should *NOT* terminate any connections until you finish using Notebook.
   ]

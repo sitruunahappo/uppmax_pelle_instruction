@@ -37,7 +37,7 @@ you can do this on your machine:
 
 
 #rect(fill: rgb("#d8dee9"), stroke: 1pt, width: 100%)[
-  *Note* \
+  #text(baseline: 4pt)[*Note*]
   #rect(fill: rgb("#eceff4"), stroke: 1pt, width: 100%)[
     Windows does NOT ship `rsync` by default, so you need to have
     either `WSL` or `MinGW` or `Cygwin` installed
@@ -57,7 +57,7 @@ more related to a directory like:
   - `$ rsync -a source_dir/ target_dir` for all contents in the directory.
 
 #rect(fill: rgb("#d08770"), stroke: 1pt, width: 100%)[
-  *Warning*
+  #text(baseline: 4pt)[*Warning*]
   #rect(fill: rgb("#ebcb8b"), stroke: 1pt, width: 100%)[
     *Pay attention to the final slash* when using `rsync`. 
     

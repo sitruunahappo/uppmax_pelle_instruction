@@ -18,7 +18,7 @@ included in _Pelle_ also.]).
 - To *search a module*, use `$ module spider <MODULE_NAME>`
   
   #rect(fill: rgb("#d8dee9"), stroke: 1pt, width: 100%)[
-    *Tip* \
+    #text(baseline: 4pt)[*Tip*]
     #rect(fill: rgb("#eceff4"), stroke: 1pt, width: 100%)[
       You can search a module with RegExp with the `-r` option as:
       
@@ -29,7 +29,7 @@ included in _Pelle_ also.]).
 - To *load a module*, use `$ module add <MODULE_NAME>`
 
   #rect(fill: rgb("#d8dee9"), stroke: 1pt, width: 100%)[
-    *Note* \
+    #text(baseline: 4pt)[*Note*]
     #rect(fill: rgb("#eceff4"), stroke: 1pt, width: 100%)[
       The system distinguishes the upper cases and the lower cases, which means 
       that when you want to load a module called `FFmpeg`, it will complain 

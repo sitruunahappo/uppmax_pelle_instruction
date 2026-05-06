@@ -42,6 +42,12 @@ retired since then. Then, as the structure of the new cluster changes
 
 #set heading(numbering: "1.")
 
+#set par(
+  first-line-indent: 0em,
+  spacing: 1.25em,
+  leading: 0.7em,
+)
+#show raw.where(block: false): set text(fill: rgb("#5e81ac"))
 #show raw.where(block: true): block.with(
   fill: luma(240),
   inset: 10pt,
