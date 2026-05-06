@@ -3,7 +3,7 @@
 Chapters progress:
   - [x] Introduction
   - [ ] Moving around
-  - [ ] File transfer
+  - [x] File transfer
   - [ ] Softwares
   - [ ] Python venv
   - [ ] Slurm
