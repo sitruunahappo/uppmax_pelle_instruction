@@ -24,6 +24,7 @@
     show-declaration-of-independent-work: false,
 )
 
+#show link: underline
 
 #set heading(numbering: none)
 

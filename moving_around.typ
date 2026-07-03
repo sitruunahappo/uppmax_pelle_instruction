@@ -14,8 +14,10 @@ No matter which method you choose, you need to set up *two factor authentication
 
 The purpose of 2FA is to get a *Time-based One-Time Password*, or *TOTP* for 
 short. TOTP expires every 30 seconds, and it is not sent by email. You need an 
-application for generating such a code.
+application for generating such a code. 
 
+At this point, you should already have an account to log in to #link("https://supr.naiss.se/")[SUPR],
+and applied some projects provided by the courses like IR or MT. 
 #link("https://suprintegration.uppmax.uu.se/bootstrapotp/")[Request Uppmax Second Factor]
 
 === SSH key <ssh-keys>
